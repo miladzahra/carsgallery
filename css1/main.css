@@ -1,19 +1,10 @@
+.ul>li {
+    background-color: rgb(18, 18, 112);
+}
+
+
 /* header*/
 
 .header {
-    background-color: rgb(16, 15, 14);
     border-radius: 5px 5px 0 0;
-}
-
-.search {
-    width: 90%;
-    padding: auto;
-    margin: 0 auto;
-    color: rgb(204, 179, 179);
-    height: 20px;
-}
-
-table {
-    width: 200px;
-    height: 20px;
 }
