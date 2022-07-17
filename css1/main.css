@@ -1,32 +1,21 @@
-.SEARCH {
-    width: 25%;
-    height: 15px;
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
 }
 
 
 /*HEADER*/
 
-.nav {
-    background-color: aqua;
-    width: 100%;
-    padding: 0;
-    margin: 0;
+.header {
+    background-color: #232f3e;
+    border-radius: 5px 5px 0 0;
+    color: #fff;
 }
 
-.logo {
-    background-color: rgb(220, 155, 232);
-    padding: 0;
-    margin: 0;
+.header a {
+    color: #bcbdc7;
 }
 
-.img {
-    display: flex;
-    width: 100%;
-    position: relative;
-    float: left;
-    border-radius: 2px solid navy;
-}
-
-ul>img {
-    width: 50%;
+.topinfo {
+    border-bottom: 1px solid #232f3e;
 }
