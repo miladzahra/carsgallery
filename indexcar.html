@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html dir="rtl" lang="en">
+<html dir="rtl" lang="fa">
 
 <head>
     <meta charset="UTF-8">
@@ -17,22 +17,63 @@
 <body>
     <div class="wrapper">
         <header class="header">
-            <div class="topinfo">
-                <ul class="accountlist">
+            <div class="topinfo flex">
+                <ul class="accountlist flex">
                     <li class="accountlistitem">
-                        <i class="fa-solid fa-user"></i> ثبت نام
-                        <a href="" class="accountlistlink"></a>
+                        <a href="" class="accountlistlink"><i class="fa-solid fa-user"></i> ثبت نام
+                        </a>
                     </li>
                     <li class="accountlistitem">
-                        <i class="fa-solid fa-lock"></i> ورود
-                        <a href="" class="accountlistlink"></a>
+                        <a href="" class="accountlistitem"><i class="fa-solid fa-lock">ورود</i>
+                        </a>
+                    </li>
+                    <li class="accountlistitem">
+                        <a href="" class="accountlistitem"><i class="fa-solid fa-heart">علاقمندی</i>
+
+                    </li>
+                    <li class="accountlistitem">
+                        <a href="" class="accountlistitem"><i class="fa-solid fa-check"> بررسی خرید</i></a>
                     </li>
                 </ul>
                 <div class="languages">
                     <img class="fa-icon" src="iran.png" alt="persian linguefe">فارسی
                 </div>
             </div>
-            <div class="logo"></div>
+            <hr>
+
+            <div class="header_info flex">
+                <div class="logo"><img src="logo.png" alt="logo"></div>
+                <div class="searchbox flex">
+                    <select name="" id="" class="categorylist">
+                        <option value="">کامپیوتر</option>
+                        <option value="">موبایل</option>
+                        <option value="">لوازم خانگی</option>
+                        <option value="">آموزشی</option>
+                        <option value="">سایر خدمات</option>
+                    </select>
+                    <input type="searchinput" name="" id="" placeholder="عنوانی را وارد کنید">
+                    <a class="btnsearch" href=""><i class="fa-solid fa-magnifying-glass"></i>  </a>
+                </div>
+                <div class="cuntactus flex">
+                    <div class="cuntactusicon">
+                        <i class="fa-solid fa-square-phone cuntacticon"></i>
+                    </div>
+                    <div class="cuntactinfo">
+                        <span>شماره تماس:156592095293</span>
+                        <br>
+                        <span>تلفن:02535632202</span>
+                    </div>
+                </div>
+                <div class="cart flex">
+                    <div class="cuntactusicon">
+                        <i class="fa-solid fa-basket-shopping carticon"></i> </div>
+                    <div class="cuntactinfo">
+                        <span>سبد خرید</span>
+                        <br>
+                        <span>2عدد محصول به مبلغ 200هزارتومان</span>
+                    </div>
+                </div>
+            </div>
             <nav class="mainnav"></nav>
         </header>
         <main></main>

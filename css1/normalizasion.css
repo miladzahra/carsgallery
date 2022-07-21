@@ -436,3 +436,12 @@ ul {
     margin: 0;
     list-style: none;
 }
+
+.flex {
+    display: flex;
+}
+
+select,
+input {
+    font-family: inherit;
+}

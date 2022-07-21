@@ -14,16 +14,34 @@
 
 .header a {
     color: #bcbdc7;
+    transition: all 03s linear;
 }
 
 .topinfo {
     border-bottom: 1px solid #232f3e;
-    display: flex;
     justify-content: space-between;
 }
 
-.accountlist {
-    display: flex;
+.accountlistlink>i {
+    padding-left: 10px;
+}
+
+.accountlistlink {
+    display: block;
+    padding: 5px 15px;
+}
+
+.accountlistlink:hover {
+    color: #fff;
+}
+
+.accountlistitem {
+    padding: 20px 5px 5px 5px;
+    vertical-align: middle;
+}
+
+.langueges {
+    padding: 15px 0 0 10px;
 }
 
 .fa-icon {
@@ -33,4 +51,55 @@
 img {
     vertical-align: middle;
     margin: 2px;
+    padding: 15px;
+}
+
+.header_info {
+    padding: 20px;
+}
+
+.searchbox {
+    flex-grow: 1;
+    height: 40px;
+    justify-content: center;
+}
+
+.categorylist {
+    border: none;
+    padding: 8px 15px;
+    border-radius: 0 15px 15px 0;
+}
+
+.searchinput {
+    border: none;
+    padding: 10px;
+    width: 50%;
+}
+
+.btnsearch {
+    padding: 10px 15px;
+    background-color: #f4a137;
+    color: #fff !important;
+    border-radius: 20px 0 0 20px;
+}
+
+.cuntactus {
+    margin: 0 2em;
+    font-size: 0.8em;
+    background-color: #232f3e;
+}
+
+.cuntactusicon {
+    padding: 0 0 0 10px;
+    font-size: 1.4em;
+}
+
+.carticon {
+    background-color: #f4a137;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.cuntacticon {
+    margin-top: 10px;
 }
